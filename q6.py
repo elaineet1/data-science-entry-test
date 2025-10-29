@@ -17,7 +17,7 @@ def find_first_negative(lst):
         if lst[index] < 0:
             return lst[index]  # Return the first negative number
 
-        index += 1  # Move to the next index
+        index = index + 1  # Move to the next index
 
     # If no negative value found
     return "No negatives"
